@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bento-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#box1 { background-color: #FF6347; width: 150px; height: 100px; } /* Tomato */
+#box2 { background-color: #4682B4; width: 100px; height: 150px; } /* SteelBlue */
+#box3 { background-color: #32CD32; width: 200px; height: 100px; } /* LimeGreen */
+#box4 { background-color: #FFD700; width: 120px; height: 120px; } /* Gold */
+#box5 { background-color: #6A5ACD; width: 180px; height: 90px; }  /* SlateBlue */
+#box6 { background-color: #FF69B4; width: 100px; height: 200px; } /* HotPink */
